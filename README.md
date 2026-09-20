@@ -48,13 +48,7 @@ better but are still rank-deficient when both satellites share nearly identical 
 observable directions spanning several orders of magnitude in strength (i.e. technically observable,
 but in some directions only very weakly so).
 
-<p align="center">
-  <img src="observability_pipeline/figures/fig1_3d_orbits.png" width="420">
-  <img src="observability_pipeline/figures/fig6_rank_evolution.png" width="420">
-</p>
-
-<details>
-<summary>All six figures</summary>
+<p align="center"> <img src="Observability_Analysis_Liaison/figures/fig1_3d_orbits.png" width="420"> <img src="Observability_Analysis_Liaison/figures/fig6_rank_evolution.png" width="420"> </p> <details> <summary>All six figures</summary>
 
 | | |
 |---|---|
@@ -102,9 +96,7 @@ the decay exponent itself carries information a single-snapshot test cannot reco
 concrete, checkable way to distinguish a real weak-observability signal from a linear test's false
 positive.
 
-<p align="center">
-  <img src="distance_correlation/figures/sigma_decay.png" width="600">
-</p>
+<p align="center"> <img src="distance_correlation/figures/sigma_decay.png" width="600"> </p>
 
 ---
 
