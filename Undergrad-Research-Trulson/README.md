@@ -3,7 +3,7 @@
 Undergraduate research on nonlinear observability for Earth-centered satellite orbits, focused on
 relative (liaison) configurations between two spacecraft. This repo covers three phases of the
 project: a numerical observability pipeline for the satellite liaison problem, an investigation of
-partial distance correlation as a nonlinear-aware alternative to classical rank-based observability
+partial distance correlation as a nonlinear alternative to classical rank-based observability
 tests, and an exploratory side investigation into discrete-time (delay-embedding) analogues.
 
 **Mentors:** Dr. Erin Beckman (Mathematics & Statistics) and Dr. Jackson Kulik (Mechanical &
