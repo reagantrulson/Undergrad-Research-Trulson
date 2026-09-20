@@ -49,8 +49,8 @@ observable directions spanning several orders of magnitude in strength (i.e. tec
 but in some directions only very weakly so).
 
 <p align="center">
-  <img src="observability_pipeline/figures/fig1_3d_orbits.png" width="420">
-  <img src="observability_pipeline/figures/fig6_rank_evolution.png" width="420">
+  <img src="Undergrad-Research-Trulson/Observability Analysis Liaison 6:1/fig1_3d_orbits.png" width="420">
+  <img src="Undergrad-Research-Trulson/Observability Analysis Liaison 6:1/fig6_rank_evolution.png" width="420">
 </p>
 
 <details>
