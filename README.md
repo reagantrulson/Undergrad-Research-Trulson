@@ -3,7 +3,7 @@
 Undergraduate research on nonlinear observability for Earth-centered satellite orbits, focused on
 relative (liaison) configurations between two spacecraft. This repo covers three phases of the
 project: a numerical observability pipeline for the satellite liaison problem, an investigation of
-partial distance correlation as a nonlinear alternative to classical rank-based observability
+partial distance correlation as a nonlinear-aware alternative to classical rank-based observability
 tests, and an exploratory side investigation into discrete-time (delay-embedding) analogues.
 
 **Mentors:** Dr. Erin Beckman (Mathematics & Statistics) and Dr. Jackson Kulik (Mechanical &
@@ -22,7 +22,7 @@ results is still an open, underdeveloped area — which is what this project inv
 
 ---
 
-## Phase 1 — Observability Pipeline (`observability_pipeline/`)
+## Phase 1 — Observability Pipeline (`Observability_Analysis_Liaison/`)
 
 A full numerical simulation of the two-satellite liaison observability problem, comparing what
 range-only versus angle-only measurements can (and can't) tell us about a satellite's state.
@@ -49,8 +49,8 @@ observable directions spanning several orders of magnitude in strength (i.e. tec
 but in some directions only very weakly so).
 
 <p align="center">
-  <img src="Undergrad-Research-Trulson/Observability Analysis Liaison 6:1/fig1_3d_orbits.png" width="420">
-  <img src="Undergrad-Research-Trulson/Observability Analysis Liaison 6:1/fig6_rank_evolution.png" width="420">
+  <img src="Observability_Analysis_Liaison/figures/fig1_3d_orbits.png" width="420">
+  <img src="Observability_Analysis_Liaison/figures/fig6_rank_evolution.png" width="420">
 </p>
 
 <details>
@@ -58,9 +58,9 @@ but in some directions only very weakly so).
 
 | | |
 |---|---|
-| ![](observability_pipeline/figures/fig1_3d_orbits.png) | ![](observability_pipeline/figures/fig2_relative_trajectory.png) |
-| ![](observability_pipeline/figures/fig3_measurements.png) | ![](observability_pipeline/figures/fig4_singular_values.png) |
-| ![](observability_pipeline/figures/fig5_sv_evolution.png) | ![](observability_pipeline/figures/fig6_rank_evolution.png) |
+| ![](Observability_Analysis_Liaison/figures/fig1_3d_orbits.png) | ![](Observability_Analysis_Liaison/figures/fig2_relative_trajectory.png) |
+| ![](Observability_Analysis_Liaison/figures/fig3_measurements.png) | ![](Observability_Analysis_Liaison/figures/fig4_singular_values.png) |
+| ![](Observability_Analysis_Liaison/figures/fig5_sv_evolution.png) | ![](Observability_Analysis_Liaison/figures/fig6_rank_evolution.png) |
 
 </details>
 
