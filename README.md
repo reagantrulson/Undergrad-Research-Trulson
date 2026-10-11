@@ -34,6 +34,7 @@ range-only versus angle-only measurements can (and can't) tell us about a satell
 | `stm.py` | Propagates the State Transition Matrix (STM) alongside the orbital dynamics and builds the observability Gramian. |
 | `observability.py` | SVD-based rank/observability analysis of the Gramian, including a local-injectivity test via random perturbations. |
 | `plots.py` | Generates all six figures below. |
+| `plots.py` | Generates all six figures below. |
 
 Run in order — `plots.py` will pull in everything it needs from the other four files:
 
@@ -75,10 +76,12 @@ correlation as a nonlinear-aware alternative.
 
 | File | Purpose |
 |---|---|
+| `Cross-Covariance.pptx` | Presentation that summarizes cases and concludes limitations of linear correlation, which motivates a shift to distance correlation
 | `crosscorr.py` | Defines four hand-derived cross-covariance cases (observable, two weakly-observable variants, and not-observable) plus a constructed false-positive case, and plots how their singular values behave. |
 | `pdcorr.py` | Implements Pearson correlation, Pearson partial correlation, biased distance correlation, U-centered (unbiased) distance correlation, and partial distance correlation from scratch; sweeps uncertainty and measures the decay rate of the minimum singular value for each case. |
 | `pdcorr2.py` | Additional targeted tests of the false-positive and weakly-observable cases using the functions from `pdcorr.py`. |
 | `verify_theorem1_linear_case.py` | A symbolic (`sympy`) check that a cited paper's general nonlinear evolution theorem correctly reduces to the classical linear/Kalman covariance-propagation equations in the linear special case — a self-consistency check on literature this project builds on, not original theory. |
+
 
 ```bash
 python pdcorr.py
